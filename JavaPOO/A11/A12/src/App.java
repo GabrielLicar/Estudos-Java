@@ -1,7 +1,5 @@
 import animais.Cachorro;
 import animais.Canguru;
-import tipos.Mamifero;
-import tipos.Peixe;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -11,7 +9,7 @@ public class App {
         cc.emitirSom();
         cc.usarBolsa();
 
-        Cachorro kk = new Cachorro(1, 4, 20, "Caramelo");
+        Cachorro kk = new Cachorro(1, 4, 20f, "Caramelo");
         kk.abanarRabo();
         kk.alimentar();
         kk.enterrarOsso();
